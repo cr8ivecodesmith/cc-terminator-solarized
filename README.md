@@ -1,12 +1,13 @@
-cc-terminator-solarized
-=======================
+Solarized Theme For Terminator
+==============================
 
 Solarized theme for Terminator. Adapted from https://github.com/ghuntley/terminator-solarized
 
 ## Installation
 
-Download and copy the `config` file to your terminator config folder.
+Sync with the codebase:
 
-    cp config ~/.config/terminator/
+    rm -Rf ~/.config/terminator
+    git clone git@github.com:cr8ivecodesmith/cc-terminator-solarized.git ~/.config/terminator
 
-Or just overwrite the contents of your config file with this one.
+or overwrite your `config` file with the one here.
